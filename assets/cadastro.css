@@ -101,3 +101,19 @@ label{
     justify-content: center;
     display: flex;
 }
+.button{
+    background-color: black;
+    color: white;
+    font-family: 'juliussans';
+    margin: 0 auto;
+    padding: 10px;
+    width: 62.7%;
+    height: 50px;
+    margin-left: 6.7rem;
+    border:none;
+    border-radius: 3px;
+}
+.link{
+    text-decoration: none;
+    color: white;
+}
