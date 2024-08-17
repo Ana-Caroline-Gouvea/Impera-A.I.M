@@ -1,0 +1,103 @@
+body, html, main, figure,
+section, a, img, div, p, h1 {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+@font-face {
+    font-family: 'juliussans';
+    src: url('fonts/JuliusSansOne-Regular.ttf');
+}
+.header{
+    background-color: white;
+    width: 100%;
+    height: 115px;
+    border-bottom: 5px solid black;
+    justify-content: center !important; 
+    display:flex ;
+}
+.ambiente{
+    font-family: 'juliussans';
+}
+.seguro{
+    display:flex;
+    width: 18%;
+    float: right;
+    margin-right: 2rem;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+.cadeado-img{
+    width: 10%;
+}
+.icon-lock{
+    width: 40px;
+    margin-left: 30px;
+}
+.ocupa{
+    width:72%
+}
+.box-img{
+    background-color: white;
+    height: 150px;
+    justify-content: center;
+    display: flex;
+}
+.logo{
+    width: 350px;
+    height: 350px;
+}
+.formulario{
+    display:flex;
+    width:60%;
+    align-self: center;
+    text-align: left;
+    margin: 0 auto;
+    margin-top: 150px;
+}
+.form1{
+    width: 50%;
+    
+}
+.form2{
+    width: 50%;
+}
+.principal{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+}
+input{
+    width: 60%;
+    height: 30px;
+    display: block;
+    text-align: left;
+    padding: 7px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    margin-top: 5px;
+    border: 0.5px solid black;
+    border-radius: 3px;
+}
+label{
+    text-align: left;
+    font-family: 'juliussans';
+    margin-left: 6.5rem;
+}
+.logo-header{
+    width: 250px;
+    height: 250px;
+    float: left;
+    margin-top: -55px;
+    margin-left: 30px;
+}
+.logo-header-box{
+    width: 10%;
+    justify-content: center;
+    display: flex;
+}
