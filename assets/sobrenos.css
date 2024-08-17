@@ -1,0 +1,73 @@
+body, html, main, figure,
+section, a, img, div, p, h1 {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+@font-face {
+    font-family: 'juliussans';
+    src: url('fonts/JuliusSansOne-Regular.ttf');
+}
+@font-face {
+    font-family: 'intersans';
+    src: url('fonts/Inter-VariableFont_opsz\,wght.ttf');
+}
+.header{
+    background-color: white;
+    width: 100%;
+    height: 115px;
+    border-bottom: 5px solid black;
+    justify-content: center !important; 
+}
+.logo-header{
+    width: 250px;
+    height: 250px;
+    float: left;
+    margin-top: -55px;
+    margin-left: 30px;
+    float:left;
+}
+.logo-header-box{
+    width: 10%;
+    justify-content: center;
+    display: flex;
+    float:left;
+}
+h1{
+    font-family: 'juliussans';
+    font-size: 45px;
+}
+.subtitulo{
+    font-size: 30px;
+    color: #9AC8CD;
+    font-family: 'intersans';
+    margin-top: 10px;
+    display: block;
+    margin-bottom: 50px;
+}
+.texto{
+    width: 70%;
+    margin: 0 auto;
+    text-align: left;
+    margin-top: 50px;
+}
+.text{
+    font-size: 23px;
+    font-family: 'intersans';
+    text-align: justify !important;
+    display: block;
+    margin-bottom: 20px;
+}
+.titulo{
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 50px;
+}
+.info{
+    margin-top: 60px;
+    margin-bottom: 100px;
+}
