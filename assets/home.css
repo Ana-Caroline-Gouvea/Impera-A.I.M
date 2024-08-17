@@ -1,0 +1,23 @@
+:root{
+    --amarelo: #9AC8CD;
+    --azul-01: #114950;
+    --azul-02: #EBEBEB;
+}
+
+body, html, main, figure,
+section, a, img, div, p, h1 {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+header {
+    background-color: #006778;
+    width: 100%;
+    height: 8rem;
+    display: flex;
+    text-decoration: none;
+    font-family: "Inter";
+}
