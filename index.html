@@ -22,13 +22,21 @@
       <img class="logo" src="assets/img/logo_IMPERA.png" alt="logo">
     </div>
     <section class="menu">
-      <div class="pages">
+      <div class="dropdown">
+        <button class="dropbtn">ROUPAS</button>
+        <div class="dropdown-content">
+          <a href="#">Moletons</a>
+          <a href="#">Calças</a>
+          <a href="#">Time</a>
+        </div>
+      </div>
+      <!-- <div class="pages">
         <span>ROUPAS</span>
         <span>ACESSÓRIOS</span>
         <span>ESPORTES</span>
-      </div>
+      </div> -->
       <div class="search">
-        <input type="search" name="search" id="search" placeholder="pesquisar">
+        <input type="search" name="search" id="search" placeholder="pesquisar" >
       </div>
       <div class="icons">
         <a><i class="fa fa-heart-o" aria-hidden="true"></i></a>
@@ -77,57 +85,203 @@
       </a>
     </div>
   </div>
-  <section class="boxTop">
-    <!-- caixa cadastro -->
-    <section class="boxInfo">
-      <div class="bem-vindo">
-        <span>
-          BEM-VINDO(A) A IMPERA!
-        </span>
-      </div>
-      <div class="endereço">
-        <span class="title">Endereço:</span>
+  <main>
+    <section class="boxTop">
+      <!-- caixa cadastro -->
+      <section class="boxInfo">
+        <div class="bem-vindo">
+          <span>
+            BEM-VINDO(A) A IMPERA!
+          </span>
+        </div>
+        <div class="info-geral">
+          <div class="endereco">
+            <span class="title">Endereço:</span>
+            <span class="info">
+              Rua 7 de Setembro, nº 22, Bariri, SP
+            </span>
+          </div>
+          <div class="horario">
+            <span class="title">Horário:</span>
+            <span class="info">
+              Segunda a Sexta: 9h às 18h | Sábado: 9h às 14h
+            </span>
+          </div>
+          <div class="contato">
+            <span class="title">Entre em contato:</span>
+            <span class="info">
+              Telefone: (14) 1234-5678 |
+              E-mail: contato@impera.com.br
+            </span>
+          </div>
+        </div>
+        <div class="notificaçao">
+          <span class="infoNotificacao">Gostaria de receber notificações sobre nossas novidades?</span>
+        </div>
+        <button class="btn-conta">
+          <span>Criar Conta</span>
+        </button>
+      </section>
+      <!-- caixa marcas -->
+      <section class="boxMarca">
+        <div class="marcas">
+          <img src="assets/img/puma-logo.png" alt="">
+        </div>
+        <div class="marcas">
+          <img src="assets/img/nike-logo.jpg" alt="">
+        </div>
+        <div class="marcas">
+          <img src="assets/img/adidas-logo.jpg" alt="">
+        </div>
+        <div class="marcas">
+          <img src="assets/img/mizuno-logo.png" alt="">
+        </div>
+      </section>
+    </section>
 
-        <span class="info">
-          Rua 7 de Setembro, nº 22, Bariri, SP
-        </span>
+    <section class="box-destaques">
+      <div class="box-marca">
+        <span class="text-marca">PUMA</span>
+        <span class="text-destaque">Destaques do mês</span>
       </div>
-      <div class="horario">
-        <span class="title">Horário:</span>
-        <span class="info">
-          Segunda a Sexta: 9h às 18h | Sábado: 9h às 14h
-        </span>
-      </div>
-      <div class="contato">
-        <span class="title">Entre em contato:</span>
-        <span class="info">
-          Telefone: (14) 1234-5678 | 
-          E-mail: contato@impera.com.br
-        </span>
-      </div>
-      <div class="notificaçao">
-        <span class="infoNotificacao">Gostaria de receber notificações sobre nossas novidades?</span>
-      </div>
-      <button class="btn-conta">
-        <span>Criar Conta</span>
-      </button>
-    </section>
-    <!-- caixa marcas -->
-    <section class="boxMarca">
-      <div class="marcas">
-        <img src="assets/img/puma-logo.png" alt="">
-      </div>
-      <div class="marcas">
-        <img src="assets/img/nike-logo.jpg" alt="">
-      </div>
-      <div class="marcas">
-        <img src="assets/img/adidas-logo.jpg" alt="">
-      </div>
-      <div class="marcas">
-        <img src="assets/img/mizuno-logo.png" alt="">
+      <div class="box-img">
+        <div class="img">
+          <img src="assets/img/camiseta-puma-01.jpg" alt="camiseta">
+          <span class="text-img">Camiseta Graphic
+            PUMA LEGACY</span>
+        </div>
+        <div class="img">
+          <img src="assets/img/camiseta-puma-02.jpg" alt="camiseta">
+          <span class="text-img">Camiseta Graphic PUMA LEGACY</span>
+        </div>
+        <div class="img">
+          <img src="assets/img/camiseta-puma-03.jpg" alt="camiseta">
+          <span class="text-img">Camiseta Graphic PUMA LEGACY</span>
+        </div>
+        <div class="img">
+          <img src="assets/img/camiseta-puma-04.jpg" alt="camiseta">
+          <span class="text-img">Camiseta Graphic PUMA LEGACY</span>
+        </div>
+        <div class="img">
+          <img src="assets/img/camiseta-puma-05.jpg" alt="camiseta">
+          <span class="text-img">Camiseta Graphic PUMA LEGACY</span>
+        </div>
       </div>
     </section>
-  </section>
+
+    <section class="box-destaques">
+      <div class="box-marca">
+        <span class="text-marca">PUMA</span>
+        <span class="text-destaque">Destaques do mês</span>
+      </div>
+      <div class="box-img">
+        <div class="img">
+          <img src="assets/img/camiseta-puma-01.jpg" alt="camiseta">
+          <span class="text-img">Camiseta Graphic
+            PUMA LEGACY</span>
+        </div>
+        <div class="img">
+          <img src="assets/img/camiseta-puma-02.jpg" alt="camiseta">
+          <span class="text-img">Camiseta Graphic PUMA LEGACY</span>
+        </div>
+        <div class="img">
+          <img src="assets/img/camiseta-puma-03.jpg" alt="camiseta">
+          <span class="text-img">Camiseta Graphic PUMA LEGACY</span>
+        </div>
+        <div class="img">
+          <img src="assets/img/camiseta-puma-04.jpg" alt="camiseta">
+          <span class="text-img">Camiseta Graphic PUMA LEGACY</span>
+        </div>
+        <div class="img">
+          <img src="assets/img/camiseta-puma-05.jpg" alt="camiseta">
+          <span class="text-img">Camiseta Graphic PUMA LEGACY</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="box-destaques">
+      <div class="box-marca">
+        <span class="text-marca">PUMA</span>
+        <span class="text-destaque">Destaques do mês</span>
+      </div>
+      <div class="box-img">
+        <div class="img">
+          <img src="assets/img/camiseta-puma-01.jpg" alt="camiseta">
+          <span class="text-img">Camiseta Graphic
+            PUMA LEGACY</span>
+        </div>
+        <div class="img">
+          <img src="assets/img/camiseta-puma-02.jpg" alt="camiseta">
+          <span class="text-img">Camiseta Graphic PUMA LEGACY</span>
+        </div>
+        <div class="img">
+          <img src="assets/img/camiseta-puma-03.jpg" alt="camiseta">
+          <span class="text-img">Camiseta Graphic PUMA LEGACY</span>
+        </div>
+        <div class="img">
+          <img src="assets/img/camiseta-puma-04.jpg" alt="camiseta">
+          <span class="text-img">Camiseta Graphic PUMA LEGACY</span>
+        </div>
+        <div class="img">
+          <img src="assets/img/camiseta-puma-05.jpg" alt="camiseta">
+          <span class="text-img">Camiseta Graphic PUMA LEGACY</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="box-destaques">
+      <div class="box-marca">
+        <span class="text-marca">PUMA</span>
+        <span class="text-destaque">Destaques do mês</span>
+      </div>
+      <div class="box-img">
+        <div class="img">
+          <img src="assets/img/camiseta-puma-01.jpg" alt="camiseta">
+          <span class="text-img">Camiseta Graphic
+            PUMA LEGACY</span>
+        </div>
+        <div class="img">
+          <img src="assets/img/camiseta-puma-02.jpg" alt="camiseta">
+          <span class="text-img">Camiseta Graphic PUMA LEGACY</span>
+        </div>
+        <div class="img">
+          <img src="assets/img/camiseta-puma-03.jpg" alt="camiseta">
+          <span class="text-img">Camiseta Graphic PUMA LEGACY</span>
+        </div>
+        <div class="img">
+          <img src="assets/img/camiseta-puma-04.jpg" alt="camiseta">
+          <span class="text-img">Camiseta Graphic PUMA LEGACY</span>
+        </div>
+        <div class="img">
+          <img src="assets/img/camiseta-puma-05.jpg" alt="camiseta">
+          <span class="text-img">Camiseta Graphic PUMA LEGACY</span>
+        </div>
+      </div>
+    </section>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+  </main>
 </body>
+<hr>
+<footer>
+  <section class="box-footer ">
+    <div class="logo-footer">
+      <img src="assets/img/logo_IMPERA.png" alt="">
+    </div>
+    <div class="sobre-nos">
+      <h5>CONHEÇA A IMPERA</h5>
+      <span><i class="bi bi-info-circle"></i> Sobre nós</span>
+    </div>
+    <div class="contato-footer">
+      <h5>ENTRE EM CONTATO</h5>
+      <span><i class="bi bi-instagram"></i> @loja_impera</span>
+      <span><i class="bi bi-envelope"></i> contato@impera.com.br</span>
+      <span><i class="bi bi-whatsapp"></i> (14) 1234-5678 </span>
+    </div>
+  </section>
+</footer>
 
 </html>
