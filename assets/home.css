@@ -144,6 +144,10 @@ header {
     /* background-color: aqua; */
 }
 
+.icons a{
+    color: black;
+}
+
 .boxTop {
     width: 100%;
     height: 360px;
