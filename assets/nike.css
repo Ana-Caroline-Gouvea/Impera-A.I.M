@@ -44,6 +44,47 @@ header {
     gap: 30px;
     /* background-color: blue; */
 }
+.dropbtn {
+    background-color: #fff;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9ec;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    font-family: 'juliussans';
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 18px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #9ac8cd42
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #f1f1f1ba;
+}
 
 .pages {
     /* background-color: red; */
