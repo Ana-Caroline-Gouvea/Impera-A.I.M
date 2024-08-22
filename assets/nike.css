@@ -1,0 +1,147 @@
+body, html, main, figure,
+section, a, img, div, p, h1 {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+@font-face {
+    font-family: 'juliussans';
+    src: url('fonts/JuliusSansOne-Regular.ttf');
+}
+@font-face {
+    font-family: 'intersans';
+    src: url('fonts/Inter-VariableFont_opsz\,wght.ttf');
+}
+
+header {
+    background-color: #FFFF;
+    width: 100%;
+    height: 115px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-decoration: none;
+    font-family: 'juliussans';
+    border-bottom: black solid 5px;
+}
+
+.logo {
+    width: 190px;
+    height: 190px;
+
+}
+
+.menu {
+    width: 85%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    /* background-color: blue; */
+}
+
+.pages {
+    /* background-color: red; */
+    width: 30%;
+}
+
+.pages span{
+    margin-left: 35px ;
+}
+
+.search {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    /* background-color: rebeccapurple; */
+    margin-left: 150px;
+}
+
+.search input {
+    width: 450px;
+    height: 40px;
+    border-radius: 10px;
+}
+
+.search ::placeholder {
+    padding-left: 10px;
+}
+.icons {
+    width: 7%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 27px;
+    /* background-color: aqua; */
+}
+.principal{
+    width:100%;
+    margin: 0 auto;
+    text-align: center;
+    align-items: center;
+}
+h1{
+    font-family: 'juliussans';
+    font-size: 30px;
+    margin: 0 auto;
+    margin-top: 70px;
+}
+.lista{
+    width: 100%;
+    align-self: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 80px;
+}
+.box-item{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content:baseline;
+    align-items: center;
+    column-gap: 40px;
+}
+.produto{
+    width: 18%;
+    height: 400px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    text-align: justify;
+}
+.texto{
+    text-align: left;
+    width: 80%;
+    margin-left: 190px;
+    font-family: 'juliussans';
+    margin-bottom: 30px;
+}
+.link{
+    color: #114950;
+}
+.item{
+    width: 100%;
+    height: 80%;
+    object-fit: none;
+}
+.fav{
+    margin-top: -310px;
+    font-size: 25px;
+    margin-left: 15px;
+    margin-bottom: 300px;
+}
+
+.text-span{
+    width: 80%;
+    font-size: 15px;
+    font-family: 'intersans';
+    align-self: center;
+    align-items: center;
+    margin-left: 27px;
+}
