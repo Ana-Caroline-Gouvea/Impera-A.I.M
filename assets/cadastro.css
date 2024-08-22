@@ -36,10 +36,10 @@ section, a, img, div, p, h1 {
 }
 .icon-lock{
     width: 40px;
-    margin-left: 30px;
+    margin-left: 10px;
 }
 .ocupa{
-    width:72%
+    width:71%
 }
 .box-img{
     background-color: white;
@@ -87,7 +87,7 @@ input{
 label{
     text-align: left;
     font-family: 'juliussans';
-    margin-left: 6.5rem;
+    margin-left: 5.2rem;
 }
 .logo-header{
     width: 250px;
@@ -109,7 +109,7 @@ label{
     padding: 10px;
     width: 62.7%;
     height: 50px;
-    margin-left: 6.7rem;
+    margin-left: 5.3rem;
     border:none;
     border-radius: 3px;
 }
