@@ -148,6 +148,7 @@ h1{
     flex-direction: row;
     justify-content:baseline;
     align-items: center;
+    justify-content: center;
     column-gap: 20px;
 }
 .produto{
@@ -160,7 +161,7 @@ h1{
 .texto{
     text-align: left;
     width: 80%;
-    margin-left: 80px;
+    margin-left: 100px;
     font-family: 'juliussans';
     margin-bottom: 30px;
 }
